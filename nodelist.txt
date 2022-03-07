@@ -1,0 +1,24 @@
+logfile retrox.log
+master .
+;update ./update
+;make Zone 555
+make composite 
+outfile retrox.
+;submit 555:1/100
+;netaddress 555:1/100
+;messages ./netmail
+outpath ./outfile
+alphaphone 1
+
+data
+
+Zone,555,Retro_X_ZC_WHQ,Berkeley_CA_US,aLPHA,Unpublished,9600,CM,ITN,INA:retroxnet.com,IBN:24555
+;
+Region,555,Retro_X_RC_WHQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
+;
+Host,1,Retro_X_R1_HQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
+;
+Hub,100,Retro_X_US_HQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
+,101,aLPHA_cOMPLEX,Berkeley_CA_US,aLPHA,Unpublished,9600,CM,ITN,INA:alphacomplex.us,IBN:24554
+,102,HappyLand_2.0,Toowoomba_AUS,Andrew_Pamment,Unpublished,9600,CM,INA:happylandbbs.com,IBN:24557
+,103,The_Ruins,Westfield_IN_US,JaXson,Unpublished,9600,CM,ITN:9707,INA:theruins.ddns.net,IBN:24555

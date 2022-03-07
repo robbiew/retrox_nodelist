@@ -1,0 +1,9 @@
+;S 03/07/2022 Retro_X draws its first breath of life!
+;S 03/07/2022 All nodes are required to have Cram-MD5 ON.
+;S 03/07/2022 All nodes will be auto-subscribed to all message echos.
+;S
+;S Notice:
+;S
+;S You may modify this nodelist for your own private use; however, you may not 
+;S redistribute it after any changes have been made.
+;S

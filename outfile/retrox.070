@@ -1,0 +1,74 @@
+;A  Nodelist for Friday, March 11, 2022 -- Day number 070 : 47145
+;A  Copyright 2018-2022, Retro_X, All Rights Reserved
+;A
+;S 03/07/2022 Retro_X draws its first breath of life!
+;S 03/07/2022 All nodes are required to have Cram-MD5 ON.
+;S 03/07/2022 All nodes will be auto-subscribed to all message echos.
+;S
+;S Notice:
+;S
+;S You may modify this nodelist for your own private use; however, you may not
+;S redistribute it after any changes have been made.
+;S
+;
+Zone,555,Retro_X_ZC_WHQ,Berkeley_CA_US,aLPHA,Unpublished,9600,CM,ITN,INA:retroxnet.com,IBN:24555
+;
+Region,555,Retro_X_RC_WHQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
+;
+Host,1,Retro_X_R1_HQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
+Hub,100,Retro_X_US_HQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
+,101,aLPHA_cOMPLEX,Berkeley_CA_US,aLPHA,Unpublished,9600,CM,ITN,INA:alphacomplex.us,IBN:24554
+,102,HappyLand_2.0,Toowoomba_AUS,Andrew_Pamment,Unpublished,9600,CM,INA:happylandbbs.com,IBN:24557
+,103,The_Ruins,Westfield_IN_US,JaXson,Unpublished,9600,CM,ITN:9707,INA:theruins.ddns.net,IBN:24555
+;S
+;S
+;S Mail Processing
+;S
+;S  CM    Continuous Mail.    Accepts mail 24 hours a day.
+;S  MO    Mail Only.          Mail calls only.
+;S  LO    Listed Only.        Accepts mail from systems in the nodelist only.
+;S  QWK   QWK-Mail.           Accepts QWK packets only.
+;S
+;S  IP flag   Explanation:port
+;S  -------   ----------------
+;S   IBN       binkp
+;S   ITN       telnet
+;S   IFT       ftp
+;S
+;S BBS SOFTWARE FLAGS:
+;S    Flag  Description
+;S    ----  -----------------------------
+;S    UBB   BBBS
+;S    UCN   Cnet Pro (Amiga)
+;S    UCU   Custom Made
+;S    UDD   DayDream BBS
+;S    UEL   EleBBS
+;S    UEG   Enigma BBS
+;S    UEZ   Ezycom BBS
+;S    UGT   GT Power
+;S    UMB   MBSE
+;S    UMG   Magicka BBS
+;S    UMX   Maximus CBCS
+;S    UMY   Mystic BBS
+;S    UPB   ProBoard
+;S    UPW   PowerBBS
+;S    URA   RemoteAccess BBS
+;S    URG   Renegade BBS
+;S    USA   Searchlight BBS
+;S    USC   Synchronet
+;S    USL   Sauron Linux
+;S    UTA   T.A.G. BBS
+;S    UTG   Telegard BBS
+;S    UTM   Talisman
+;S    UVA   Virtual Advanced BBS
+;S    UWC   WildCat!/WINServer
+;S    UWW   WWIV
+;S    UXE   x/84
+;S    UZE   Zeus
+;S
+;S
+;S ZeroTier node flags
+;S -------------------
+;S    ZT:<id> where <id> is the network ID for each node when you
+;S            run 'zerotier-cli status'
+
