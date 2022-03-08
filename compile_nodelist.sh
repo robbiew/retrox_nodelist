@@ -25,7 +25,7 @@ ISOK=false
 # echo "0. Times up!"
 
 cd $WORKDIR
-# git pull
+git pull
 
 echo "Compiling nodelist..."
 makenl -d nodelist.txt >/dev/null
@@ -39,14 +39,14 @@ echo "Creating zip archive retrox.$newext..."
 [ -f zip/retrox.$newext ] && mv zip/retrox.$newext{,.`date +%Y%m%d`}
 zip -j9 zip/retrox.$newext $absfile
 
-# git add . -A
-# git commit -m "$COMMIT"
-# git push
+git add . -A
+git commit -m "$COMMIT"
+git push
 
 cd $PACKDIR
 echo "Now in $PACKDIR directory..."
 
-# git pull
+git pull
 
 rm $PACKDIR/retrox.z*
 rm $PACKDIR/retroxinfo.zip
@@ -57,9 +57,9 @@ cp $WORKDIR/zip/retrox.$newext $PACKDIR/
 echo "Creating zip archive $PACKDIR/retroxinfo.zip..."
 zip -j9 $PACKDIR/retroxinfo.zip $PACKDIR/*
 
-# git add . -A
-# git commit -m "$COMMIT"
-# git push
+git add . -A
+git commit -m "$COMMIT"
+git push
 
 cd $ORIGDIR
 

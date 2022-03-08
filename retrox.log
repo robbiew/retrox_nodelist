@@ -529,3 +529,46 @@ d 07-Mar-2022 20:26:48 makenl[92747] Skip arc for /home/bbs/git/retrox_nodelist/
 d 07-Mar-2022 20:26:48 makenl[92747] /home/bbs/git/makenl-code/src/fileutil.c: cleanit(): cleanup no
 + 07-Mar-2022 20:26:48 makenl[92747] CRC = 47145
 + 07-Mar-2022 20:26:48 makenl[92747] MakeNL finished (rc=0)
+
+- 08-Mar-2022 00:22:35 makenl[102186] MakeNL 3.5.1 (Linux) compiled with GNU C on Mar  6 2022 17:55:32
++ 08-Mar-2022 00:22:35 makenl[102186] MakeNL started
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): called with src='.'
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): after removing slash: '.'
+d 08-Mar-2022 00:22:35 makenl[102186] os_fullpath(): dir='', name='', ext=''
+d 08-Mar-2022 00:22:35 makenl[102186] os_fullpath(): old directory='/home/bbs/git/retrox_nodelist'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist' name='' ext=''
+d 08-Mar-2022 00:22:35 makenl[102186] os_fullpath(): complete filename: '/home/bbs/git/retrox_nodelist/'
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): absolute path '/home/bbs/git/retrox_nodelist/'
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): st_mode is now 40775
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): called with src='./outfile'
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): after removing slash: './outfile'
+d 08-Mar-2022 00:22:35 makenl[102186] os_fullpath(): dir='.', name='outfile', ext=''
+d 08-Mar-2022 00:22:35 makenl[102186] os_fullpath(): old directory='/home/bbs/git/retrox_nodelist'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist' name='outfile' ext=''
+d 08-Mar-2022 00:22:35 makenl[102186] os_fullpath(): complete filename: '/home/bbs/git/retrox_nodelist/outfile'
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): absolute path '/home/bbs/git/retrox_nodelist/outfile'
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/os.c: os_fulldir(): st_mode is now 40775
+? 08-Mar-2022 00:22:35 makenl[102186] WARNING -- No net NAME given for list header (use /N or NAME verb)
++ 08-Mar-2022 00:22:35 makenl[102186] Cmdline: makenl "-D" "nodelist.txt"
++ 08-Mar-2022 00:22:35 makenl[102186] Using 'nodelist.txt' in '/home/bbs/git/retrox_nodelist'
++ 08-Mar-2022 00:22:35 makenl[102186] Begin processing 'retrox.' -- 0:22, Tuesday, March 8, 2022
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox.' ext='(null)'
+d 08-Mar-2022 00:22:35 makenl[102186] main(): shouldprocess /home/bbs/git/retrox_nodelist/outfile/retrox.
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='$$$'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist/' name='cpyright.txt' ext='(null)'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist/' name='prolog.txt' ext='(null)'
+d 08-Mar-2022 00:22:35 makenl[102186] CloseMSGFile: status=0
+d 08-Mar-2022 00:22:35 makenl[102186] CloseMSGFile: MSGnum=0
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist/' name='epilog.txt' ext='(null)'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='(null)' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox.' ext='070'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='$$$'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='063'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='056'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='049'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='042'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='035'
+d 08-Mar-2022 00:22:35 makenl[102186] myfnmerge: drive='' dir='/home/bbs/git/retrox_nodelist/outfile' name='retrox' ext='028'
++ 08-Mar-2022 00:22:35 makenl[102186] Unchanged output file will NOT be submitted
+d 08-Mar-2022 00:22:35 makenl[102186] /home/bbs/git/makenl-code/src/fileutil.c: cleanit(): cleanup no
++ 08-Mar-2022 00:22:35 makenl[102186] CRC = 47145
++ 08-Mar-2022 00:22:35 makenl[102186] MakeNL finished (rc=0)
