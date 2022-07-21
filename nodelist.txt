@@ -19,6 +19,6 @@ Region,555,Retro_X_RC_WHQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxne
 Host,1,Retro_X_R1_HQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
 ;
 Hub,100,Retro_X_US_HQ,Berkeley_CA_US,aLPHA,Unpublished,9600,ICM,INA:retroxnet.com,IBN:24555
-,101,aLPHA_cOMPLEX,Berkeley_CA_US,aLPHA,Unpublished,9600,CM,ITN,INA:alphacomplex.us,IBN:24554
+,101,Zombie_Toolshed,Berkeley_CA_US,aLPHA,Unpublished,9600,CM,ITN,INA:zombietoolshed.us,IBN:24554
 ,102,HappyLand_2.0,Toowoomba_AUS,Andrew_Pamment,Unpublished,9600,CM,INA:happylandbbs.com,IBN:24557
 ,103,The_Ruins,Westfield_IN_US,JaXson,Unpublished,9600,CM,ITN:9707,INA:theruins.ddns.net,IBN:24555
